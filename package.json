@@ -1,0 +1,18 @@
+{
+  "name": "express-prisma-boilerplate",
+  "version": "0.1.0",
+  "description": "My boilerplate for building REST APIs with Express, Prisma, and Cloudinary in TypeScript",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ExpressJS",
+    "Prisma",
+    "TypeScript",
+    "Cloudinary",
+    "REST"
+  ],
+  "author": "Tawanda Munongo",
+  "license": "MIT"
+}
