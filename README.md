@@ -6,15 +6,17 @@ This is my go-to boilerplate for building REST APIs with ExpressJS, TypeScript, 
 
 To get started with the project, clone the repository and install the dependencies:
 
-`git clone <repository_url>`
+`git clone https://github.com/tmunongo/express-prisma-boilerplate.git`
+
 `cd express-ts-prisma-boilerplate`
+
 `npm install`
 
 ### Database Configuration
 
 The boilerplate is integrated with Prisma for database management. To set up the database:
 
-    Copy the *.env.example* file in the project directory and add your database configuration as shown below:
+    Copy the *.env.example*, rename to *.env* file in the project directory and add your database configuration as shown below:
 
     `DATABASE_URL="postgresql://user:password@localhost:5432/dbname?schema=public"`
 
@@ -33,6 +35,7 @@ To start the server in development mode:
 To start the server in production mode:
 
 `npm run build`
+
 `npm start`
 
 ### Project Structure
