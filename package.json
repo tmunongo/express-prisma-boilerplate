@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "My boilerplate for building REST APIs with Express, Prisma, and Cloudinary in TypeScript",
   "main": "./src/server.ts",
+  "prisma.schema": "./src/prisma/schema.prisma",
   "scripts": {
     "dev": "nodemon src/server.ts",
     "prisma:migrate": "prisma migrate dev",
@@ -23,8 +24,10 @@
   "license": "MIT",
   "dependencies": {
     "@prisma/client": "^4.12.0",
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "nodemon": "^2.0.22"
   },
   "devDependencies": {

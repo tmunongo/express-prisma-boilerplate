@@ -7,7 +7,7 @@ const prisma = new PrismaClient();
 const router = Router();
 
 async function main() {
-  router.get("/welcome", async (req: Request, res: Response) => {
+  router.get("/", async (req: Request, res: Response) => {
     res.status(200).send("Welcome to this Express application");
   });
 }
